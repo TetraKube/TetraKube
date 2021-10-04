@@ -12,6 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
+
   <body>
     <div class="block">
       <div class="shape">
@@ -37,6 +38,19 @@
 
     <div class="overlay"></div>
 
+    <ul id="scene" data-friction-x="0.03" data-friction-y="0.05">
+      <li class="layer" id="specks" data-depth="0.1"></li>
+      <li class="layer" id="layer-1" data-depth="0.15">
+        <div class="img" id="img-1"></div>
+      </li>
+      <li class="layer" id="layer-2" data-depth="0.25">
+        <div class="img" id="img-2"></div>
+      </li>
+      <li class="layer" id="layer-3" data-depth="0.45">
+        <div class="img" id="img-3"></div>
+      </li>
+    </ul>
+
     <div id="large-header" class="large-header">
       <canvas id="x-canvas"></canvas>
     </div>
@@ -49,12 +63,12 @@
     <![endif]-->
 
     <script
-      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"
       async
       defer
     ></script>
     <script
-      src="https://cdn.rawgit.com/greensock/GreenSock-JS/94c5d3100f78656c3a336ff1080ce22fba63394d/src/uncompressed/TweenMax.js"
+      src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js"
       async
       defer
     ></script>
@@ -69,10 +83,16 @@
       defer
     ></script>
     <script
+      src="https://cdn.rawgit.com/greensock/GreenSock-JS/94c5d3100f78656c3a336ff1080ce22fba63394d/src/uncompressed/TweenMax.js"
+      async
+      defer
+    ></script>
+    <script
       src="https://cdnjs.cloudflare.com/ajax/libs/jquery-requestAnimationFrame/0.1.2/jquery.requestAnimationFrame.min.js"
       async
       defer
     ></script>
     <script src="/js/node_mouse.js" async defer></script>
+    <script src="/js/boke.js" async defer></script>
   </body>
 </html>
