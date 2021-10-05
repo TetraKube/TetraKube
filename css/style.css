@@ -13,6 +13,7 @@
 .wrapper{
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 .shape{
   width: 100px;
@@ -169,7 +170,10 @@ html,body{
   }
       .large-header{
       background:linear-gradient(to bottom, #201a2b 0%,rgb(69, 24, 99) 37%,#7a1c83 61%,#a811a8 100%);
-      text-align:center
+      text-align:center;
+      width: 100vw;
+      height: 100vh;
+      
       }
   #x-canvas{
     opacity:0.5
