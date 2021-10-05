@@ -184,10 +184,10 @@ html,body{
       width: 100vw;
       height: 100vh;
 
-    
-      background-color: black;
+
+      background:linear-gradient(to bottom, #201a2b 0%,rgb(69, 24, 99) 37%,#7a1c83 61%,#a811a8 100%);
       position: absolute;
-      opacity: 0.3;
+      opacity: 1;
   }
   
   
