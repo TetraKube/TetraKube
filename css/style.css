@@ -141,7 +141,7 @@
 html,body{
     margin:0;
     overflow:hidden;
-    height:100%
+
   }
   img{
     width:100%;
@@ -278,6 +278,53 @@ html,body{
 }
 
 
+
+.button {
+  padding: 1rem 2.5rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: 0.15rem;
+  transition: all 0.3s;
+  overflow: hidden;
+  z-index: 1;
+  bottom: 0;
+  margin-bottom: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(117, 13, 165);
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgb(81, 13, 112);
+  transition: all 0.3s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
 
 .openSeaWrapper{
     
