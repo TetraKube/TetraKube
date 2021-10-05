@@ -1,9 +1,4 @@
 
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-  // true for mobile device
-
-  
-}else{
   (function () {
   var lastTime = 0;
   var vendors = ["ms", "moz", "webkit", "o"];
@@ -237,7 +232,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 })();
 
 
-}
+
 
 
 // MIT license
