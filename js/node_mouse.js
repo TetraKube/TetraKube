@@ -2,7 +2,6 @@
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
   // true for mobile device
 
-  $('#x-canvas').css('display','none');
   
 }else{
   (function () {
