@@ -11,8 +11,11 @@
 }
 
 .wrapper{
-  width: 100vw;
-  height: 100vh;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
   overflow: hidden;
 }
 .shape{
@@ -210,7 +213,7 @@ html,body{
 
     padding: 0;
     margin: 0;
-    
+
 }
 
 
