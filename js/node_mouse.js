@@ -1,6 +1,11 @@
-// MIT license
-// By @nodws with github.com/greensock/GreenSock-JS, see more examples at greensock.com/examples-showcases
-(function () {
+
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+  // true for mobile device
+
+  $('#x-canvas').css('display','none');
+  
+}else{
+  (function () {
   var lastTime = 0;
   var vendors = ["ms", "moz", "webkit", "o"];
   for (var x = 0; x < vendors.length && !window.requestAnimationFrame; ++x) {
@@ -232,3 +237,9 @@
   }
 })();
 
+
+}
+
+
+// MIT license
+// By @nodws with github.com/greensock/GreenSock-JS, see more examples at greensock.com/examples-showcases
