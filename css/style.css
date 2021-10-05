@@ -138,6 +138,16 @@
 }
 
 
+.hero{
+  width: 100%;
+    height: 100vh;
+}
+
+
+.tetrakubesales{
+  width: 100%;
+  height: 100vh;
+}
 html,body{
     margin:0;
     overflow:hidden;
